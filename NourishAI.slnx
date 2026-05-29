@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="NourishAI.API/NourishAI.API.csproj" />
+  <Project Path="NourishAI.Core/NourishAI.Core.csproj" />
+  <Project Path="NourishAI.Infrastructure/NourishAI.Infrastructure.csproj" />
+  <Project Path="NourishAI.Tests/NourishAI.Tests.csproj" />
+</Solution>
