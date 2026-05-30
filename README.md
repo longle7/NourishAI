@@ -46,3 +46,13 @@ dotnet run
 ### Environment Variables
 
 Create a `.env` file in `nourish-ai-frontend/`:
+
+### Roadmap
+
+- [x] User authentication (login/register)
+- [x] Meal logging with CRUD operations
+- [x] Nutrition dashboard
+- [ ] Fixed meal slots (Breakfast, Lunch, Snack, Dinner)
+- [ ] AI food recognition from photos
+- [ ] Apple Watch data import
+- [ ] Calorie deficit tracking and goals
