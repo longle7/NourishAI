@@ -3,6 +3,7 @@
 public class MealResponse
 {
     public Guid Id { get; set; }
+    public string MealName { get; set; } = "Meal";
     public DateTime LoggedAt { get; set; }
     public string? Notes { get; set; }
     public string? PhotoUrl { get; set; }

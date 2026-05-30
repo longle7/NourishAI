@@ -5,6 +5,7 @@ public class Meal
     public Guid Id { get; set; } = Guid.NewGuid();
     public Guid UserId { get; set; }
     public User User { get; set; } = null!;
+    public string MealName { get; set; } = "Meal";
     public DateTime LoggedAt { get; set; } = DateTime.UtcNow;
     public string? PhotoUrl { get; set; }
     public string? Notes { get; set; }

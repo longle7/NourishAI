@@ -32,8 +32,10 @@ public class MealService : IMealService
         var meal = new Meal
         {
             UserId = userId,
+            MealName = request.MealName,
             LoggedAt = request.LoggedAt,
-            Notes = request.Notes
+            Notes = request.Notes,
+            CreatedAt = DateTime.UtcNow
         };
 
         _context.Meals.Add(meal);
@@ -91,6 +93,7 @@ public class MealService : IMealService
     private static MealResponse MapToResponse(Meal meal) => new()
     {
         Id = meal.Id,
+        MealName = meal.MealName,
         LoggedAt = meal.LoggedAt,
         Notes = meal.Notes,
         PhotoUrl = meal.PhotoUrl,
