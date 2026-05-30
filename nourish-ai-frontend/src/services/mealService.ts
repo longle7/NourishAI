@@ -15,6 +15,7 @@ export interface MealItem {
 
 export interface Meal {
     id: string;
+    mealName: string;
     loggedAt: string;
     notes: string;
     photoUrl: string | null;
@@ -22,6 +23,7 @@ export interface Meal {
 }
 
 export interface CreateMealRequest {
+    mealName: string;
     loggedAt: string;
     notes: string;
 }
